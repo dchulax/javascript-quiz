@@ -1,19 +1,17 @@
-var correctAnswer = ["B","B","C","A"],
-    total = correctAswer.length;
+var correctAnswers = ["B","B","C","A"],
+    total = correctAnswers.length;
 function getCheckedValue(radioName){
-  var radios =document.getElementByName(radioName);
+  var radios =document.getElementsByName(radioName);
   for (var i=0; i<radios.length; i++)
   if(radios[i].checked)
   return radios[i].value;
 }
-function getmarks(){
-  var marks= 20;
-  for (var x=20; x=total; x++)
-  if(getCheckedValue("quiz"+x)===correctAnswer[x])marks+=1;
+function getMarks(){
+  var marks= 0;
+  for (var x=0; x<total; x++)
+  if(getCheckedValue("quiz"+x)===correctAnswers[x]) marks+=1;
   return marks;
 }
-var result = document.getElementByClass(".result");
-var submit = document.getElementById("#submit");
-function returnMarks(result,submit){
-  console.log("Your score is" +getmarks+ "/" + total);
+function returnMarks(){
+  console.log("Your score is" +getMarks()+ "/" + total);
 }
