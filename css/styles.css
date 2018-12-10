@@ -20,9 +20,31 @@
 img{
   width: 100%;
 }
+#quiz,#objectives{
+  top:50px;
+  bottom: 50px;
+}
 #quiz,ol{
   padding:0 20px;
 }
 p{
   font-weight: 800;
+}
+#submit{
+  background: #1a143c;
+  min-width: 200px;
+  border-radius: 20px;
+  color: #fff;
+  height: 40px;
+  border-width: 0;
+  border-style: none;
+  border-left-color: inherit;
+  border-image: none;
+}
+#submit:hover{
+  background: #fabb4d;
+  min-width: 200px;
+  border-radius: 20px;
+  color: #000;
+  height: 40px;
 }
