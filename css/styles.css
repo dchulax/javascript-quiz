@@ -9,7 +9,20 @@
     margin-right: auto;
     margin-left: auto;
 }
-
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.col-md-12, .col-sm-12{
+  padding-left: 0;
+  padding-right: 0;
+}
 img{
   width: 100%;
+}
+#quiz{
+  padding:0 20px;
+}
+p{
+  font-weight: 800;
 }
