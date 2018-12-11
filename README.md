@@ -22,4 +22,7 @@ Bootstrap
 #####BDD
 You select on the appropriate answer, submit.
 Then the application checks on if the answer is correct then alerts you on your score.
-######
+######License
+The app is under the MIT licensing.
+#######Contact
+Email:tobiasorao@gmail.com
