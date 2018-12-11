@@ -13,5 +13,6 @@ function getMarks(){
   return marks;
 }
 function returnMarks(){
-  console.log("Your score is" +getMarks()+ "/" + total);
+
+alert("Your score is " +getMarks()+ "/" + total);
 }
