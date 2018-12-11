@@ -14,3 +14,12 @@ jquery
 ```
 Thus if you will find a trouble getting an internet connection all the time.
 Use Chrome to check on any javaScript errors as it is developer friendly.
+####Type of Technologies used in the application
+HTML
+JavaScript
+jquery
+Bootstrap
+#####BDD
+You select on the appropriate answer, submit.
+Then the application checks on if the answer is correct then alerts you on your score.
+######
