@@ -1,7 +1,7 @@
 var correctAnswers = ["B","B","C","A"],
     total = correctAnswers.length;
 function getCheckedValue(radioName){
-  var radios =document.getElementsByName(radioName);
+  var radios =document.$('#radio-quiz');
   for (var i=0; i<radios.length; i++)
   if(radios[i].checked)
   return radios[i].value;
